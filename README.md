@@ -2,8 +2,6 @@
 SQL-based data analysis project on Zomato orders, reviews, and delivery performance
 
 
-# Cracking the Crust: Zomato Order & Review Analytics (SQL Project)
-
 This project is a comprehensive SQL-based analysis of Zomato’s customer orders, restaurant reviews, and delivery patterns. It covers database design, data cleaning, analytical queries, performance metrics, and view creation for reporting.
 
 ---
@@ -32,16 +30,18 @@ To analyze Zomato’s user behavior and restaurant performance using SQL to:
 - `Order_Items`: Line-item data (item, quantity, price)
 - `Reviews`: User feedback, ratings, and review text
 
-*You can find the schema in the `.sql` file or `schema_design.png`.*
-
 ---
 
 ## Key Insights (via SQL queries)
-- Total orders, revenue, and average order value (AOV)
-- City-wise revenue and delivery duration
-- Top-rated restaurants with high order volume
-- Best-selling food items and their revenue contribution
-- Customer sentiment classification (Positive, Neutral, Negative)
+
+| Category           | Insights                                                                 |
+|--------------------|--------------------------------------------------------------------------|
+| 🛒 Orders          | 500 total orders, AOV = ₹496.29                                          |
+| 💰 Revenue         | Hyderabad is the top revenue-generating city                             |
+| 🍔 Top Items       | Chicken Biryani & Margarita Pizza are most sold and most profitable      |
+| 📈 Restaurants     | Restaurant_13 has the highest average rating (3.47)                      |
+| 🛵 Delivery        | Delhi has the highest average delivery time (40.7 minutes)               |
+| 💬 Reviews         | More negative (132) than positive (109) sentiments                       |
 
 ---
 
@@ -56,4 +56,21 @@ These views enable easy integration with BI dashboards like Power BI/Tableau.
 
 ---
 
+## Conclusion
 
+This project demonstrates:
+- SQL proficiency across joins, aggregates, views, and CASE statements.
+- Data-driven insights into Zomato’s operations.
+- Readiness for BI tools through pre-built summary views.
+
+---
+
+## Recommendations
+
+- Optimize delivery in Delhi & Ahmedabad.
+- Promote top-rated restaurants via Zomato Gold.
+- Track monthly sentiment trends.
+- Bundle top-selling food items for offers.
+- Expand analysis to include NLP on review text.
+
+---
